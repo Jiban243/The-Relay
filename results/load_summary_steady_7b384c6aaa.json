@@ -1,0 +1,44 @@
+{
+  "run_id": "steady_7b384c6aaa",
+  "scenario": "steady",
+  "source": "stand-in",
+  "requests": 8,
+  "duration_s": 17.959,
+  "offered_rate_per_min": 27.43,
+  "config": {
+    "count": 8,
+    "interval_s": 2.5,
+    "rpm": 30,
+    "rpd": 1000,
+    "in_flight": 3,
+    "queue": 12,
+    "wait_s": 2.0
+  },
+  "app_peak_queue": 0,
+  "app_peak_in_flight": 1,
+  "standin_metrics": {
+    "minute_requests": 8,
+    "day_requests": 8,
+    "minute_tokens_reserved": 13304,
+    "day_tokens_reserved": 13304,
+    "in_flight": 0,
+    "peak_in_flight": 1
+  },
+  "status_counts": {
+    "ok": 8,
+    "rate_limited": 0,
+    "timeout": 0,
+    "error": 0
+  },
+  "model_ttft_ms": {
+    "p50": 904.26,
+    "p95": 960.95,
+    "p99": 969.44
+  },
+  "successful_total_ms": {
+    "p50": 998.01,
+    "p95": 1048.73,
+    "p99": 1050.15
+  },
+  "warning": "Stand-in timings and token counts are simulated. TTFT measures first model content including queue wait. Buffered user-visible first content is recorded separately. Small-sample p95/p99 are descriptive only. Laboratory TPM=50000 intentionally differs from real observed TPM=8000."
+}

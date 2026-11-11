@@ -1,0 +1,33 @@
+# Environment
+.venv/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Mac
+.DS_Store
+
+# Local editor settings
+.vscode/
+
+.env
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+*.pem
+
+# Temporary stand-in logs
+results/standin_*.log

@@ -1,0 +1,426 @@
+{
+  "load": {
+    "steady": {
+      "n": 8,
+      "ok": 8,
+      "statuses": {
+        "ok": 8
+      },
+      "admissions": {
+        "accepted": 8
+      },
+      "arrival_rpm": 24.0,
+      "peak_queue": 0,
+      "peak_in_flight": 1,
+      "model_first_content_ms": {
+        "p50": 904.26,
+        "p95": 960.95,
+        "p99": 969.44
+      },
+      "total_ms": {
+        "p50": 998.01,
+        "p95": 1048.73,
+        "p99": 1050.15
+      },
+      "tokens_in": {
+        "sum": 7160,
+        "missing": 0
+      },
+      "tokens_out": {
+        "sum": 1081,
+        "missing": 0
+      },
+      "retries": {
+        "sum": 0,
+        "missing": 0
+      }
+    },
+    "burst": {
+      "n": 24,
+      "ok": 6,
+      "statuses": {
+        "ok": 6,
+        "timeout": 9,
+        "error": 9
+      },
+      "admissions": {
+        "accepted": 6,
+        "queue_timeout": 9,
+        "queue_full": 9
+      },
+      "arrival_rpm": 5971.44,
+      "peak_queue": 12,
+      "peak_in_flight": 3,
+      "model_first_content_ms": {
+        "p50": 1664.64,
+        "p95": 2451.95,
+        "p99": 2513.62
+      },
+      "total_ms": {
+        "p50": 1760.51,
+        "p95": 2602.71,
+        "p99": 2678.88
+      },
+      "tokens_in": {
+        "sum": 5516,
+        "missing": 0
+      },
+      "tokens_out": {
+        "sum": 811,
+        "missing": 0
+      },
+      "retries": {
+        "sum": 0,
+        "missing": 0
+      }
+    },
+    "sustained_overload": {
+      "n": 48,
+      "ok": 10,
+      "statuses": {
+        "ok": 10,
+        "timeout": 37,
+        "error": 1
+      },
+      "admissions": {
+        "accepted": 11,
+        "queue_timeout": 37
+      },
+      "arrival_rpm": 399.94,
+      "peak_queue": 7,
+      "peak_in_flight": 2,
+      "model_first_content_ms": {
+        "p50": 1670.8,
+        "p95": 4167.02,
+        "p99": 4256.3
+      },
+      "total_ms": {
+        "p50": 1780.03,
+        "p95": 4408.08,
+        "p99": 4495.8
+      },
+      "tokens_in": {
+        "sum": 9992,
+        "missing": 1
+      },
+      "tokens_out": {
+        "sum": 1283,
+        "missing": 1
+      },
+      "retries": {
+        "sum": 0,
+        "missing": 0
+      }
+    },
+    "rpm_halved_initial": {
+      "n": 24,
+      "ok": 9,
+      "statuses": {
+        "ok": 9,
+        "timeout": 8,
+        "error": 7
+      },
+      "admissions": {
+        "accepted": 9,
+        "queue_timeout": 8,
+        "queue_full": 7
+      },
+      "arrival_rpm": 999.17,
+      "peak_queue": 12,
+      "peak_in_flight": 3,
+      "model_first_content_ms": {
+        "p50": 1928.49,
+        "p95": 2566.6,
+        "p99": 2671.99
+      },
+      "total_ms": {
+        "p50": 2010.85,
+        "p95": 2731.0,
+        "p99": 2833.65
+      },
+      "tokens_in": {
+        "sum": 7388,
+        "missing": 0
+      },
+      "tokens_out": {
+        "sum": 1182,
+        "missing": 0
+      },
+      "retries": {
+        "sum": 0,
+        "missing": 0
+      }
+    },
+    "daily_exhausted": {
+      "n": 12,
+      "ok": 3,
+      "statuses": {
+        "ok": 3,
+        "rate_limited": 9
+      },
+      "admissions": {
+        "accepted": 3,
+        "daily_exhausted": 9
+      },
+      "arrival_rpm": 665.88,
+      "peak_queue": 0,
+      "peak_in_flight": 3,
+      "model_first_content_ms": {
+        "p50": 1161.96,
+        "p95": 1301.64,
+        "p99": 1314.06
+      },
+      "total_ms": {
+        "p50": 1249.42,
+        "p95": 1398.25,
+        "p99": 1411.48
+      },
+      "tokens_in": {
+        "sum": 2758,
+        "missing": 0
+      },
+      "tokens_out": {
+        "sum": 417,
+        "missing": 0
+      },
+      "retries": {
+        "sum": 0,
+        "missing": 0
+      }
+    },
+    "rpm_control_30": {
+      "n": 24,
+      "ok": 24,
+      "statuses": {
+        "ok": 24
+      },
+      "admissions": {
+        "accepted": 24
+      },
+      "arrival_rpm": 133.32,
+      "peak_queue": 0,
+      "peak_in_flight": 4,
+      "model_first_content_ms": {
+        "p50": 1128.02,
+        "p95": 1391.94,
+        "p99": 1399.46
+      },
+      "total_ms": {
+        "p50": 1248.47,
+        "p95": 1572.89,
+        "p99": 1581.46
+      },
+      "tokens_in": {
+        "sum": 22064,
+        "missing": 0
+      },
+      "tokens_out": {
+        "sum": 3332,
+        "missing": 0
+      },
+      "retries": {
+        "sum": 0,
+        "missing": 0
+      }
+    },
+    "rpm_halved_15": {
+      "n": 24,
+      "ok": 15,
+      "statuses": {
+        "ok": 15,
+        "timeout": 9
+      },
+      "admissions": {
+        "accepted": 15,
+        "queue_timeout": 9
+      },
+      "arrival_rpm": 133.32,
+      "peak_queue": 3,
+      "peak_in_flight": 4,
+      "model_first_content_ms": {
+        "p50": 843.18,
+        "p95": 1343.9,
+        "p99": 1389.89
+      },
+      "total_ms": {
+        "p50": 950.93,
+        "p95": 1500.66,
+        "p99": 1566.83
+      },
+      "tokens_in": {
+        "sum": 13790,
+        "missing": 0
+      },
+      "tokens_out": {
+        "sum": 1924,
+        "missing": 0
+      },
+      "retries": {
+        "sum": 0,
+        "missing": 0
+      }
+    }
+  },
+  "quality": {
+    "small": {
+      "n": 15,
+      "saved_grades": {
+        "correct": 11,
+        "refused_wrongly": 1,
+        "refused_correctly": 3
+      },
+      "graded": 15,
+      "evidence_outcomes": {
+        "cited_answer_not_factually_graded": 11,
+        "wrongful_refusal": 1,
+        "correct_refusal": 3
+      },
+      "tokens_per_answer": 1110.93,
+      "provider_first_content_ms": {
+        "p50": 1309.75,
+        "p95": 13617.07,
+        "p99": 17515.53
+      },
+      "buffered_ready_ms": {
+        "p50": 1358.71,
+        "p95": 14033.24,
+        "p99": 17911.36
+      },
+      "total_ms": {
+        "p50": 1358.71,
+        "p95": 14033.24,
+        "p99": 17911.36
+      },
+      "tokens_in": {
+        "sum": 13872,
+        "missing": 0
+      },
+      "tokens_out": {
+        "sum": 2792,
+        "missing": 0
+      },
+      "verified_grade_percentages": {
+        "correct": 73.33,
+        "wrong": 0.0,
+        "refused_correctly": 20.0,
+        "refused_wrongly": 6.67
+      }
+    },
+    "balanced": {
+      "n": 15,
+      "saved_grades": {
+        "correct": 11,
+        "refused_wrongly": 1,
+        "refused_correctly": 3
+      },
+      "graded": 15,
+      "evidence_outcomes": {
+        "cited_answer_not_factually_graded": 11,
+        "wrongful_refusal": 1,
+        "correct_refusal": 3
+      },
+      "tokens_per_answer": 2879.6,
+      "provider_first_content_ms": {
+        "p50": 1132.55,
+        "p95": 5624.59,
+        "p99": 6065.65
+      },
+      "buffered_ready_ms": {
+        "p50": 1547.19,
+        "p95": 6300.15,
+        "p99": 6459.87
+      },
+      "total_ms": {
+        "p50": 1547.19,
+        "p95": 6300.15,
+        "p99": 6459.87
+      },
+      "tokens_in": {
+        "sum": 39367,
+        "missing": 0
+      },
+      "tokens_out": {
+        "sum": 3827,
+        "missing": 0
+      },
+      "verified_grade_percentages": {
+        "correct": 73.33,
+        "wrong": 0.0,
+        "refused_correctly": 20.0,
+        "refused_wrongly": 6.67
+      }
+    },
+    "reranked": {
+      "n": 15,
+      "saved_grades": {
+        "correct": 11,
+        "refused_wrongly": 1,
+        "refused_correctly": 3
+      },
+      "graded": 15,
+      "evidence_outcomes": {
+        "cited_answer_not_factually_graded": 11,
+        "wrongful_refusal": 1,
+        "correct_refusal": 3
+      },
+      "tokens_per_answer": 3085.33,
+      "provider_first_content_ms": {
+        "p50": 1224.7,
+        "p95": 5161.27,
+        "p99": 5241.27
+      },
+      "buffered_ready_ms": {
+        "p50": 1587.82,
+        "p95": 5519.75,
+        "p99": 6187.08
+      },
+      "total_ms": {
+        "p50": 1587.82,
+        "p95": 5519.75,
+        "p99": 6187.08
+      },
+      "tokens_in": {
+        "sum": 42138,
+        "missing": 0
+      },
+      "tokens_out": {
+        "sum": 4142,
+        "missing": 0
+      },
+      "verified_grade_percentages": {
+        "correct": 73.33,
+        "wrong": 0.0,
+        "refused_correctly": 20.0,
+        "refused_wrongly": 6.67
+      }
+    }
+  },
+  "retry": {
+    "retry_no_retry": {
+      "status": "rate_limited",
+      "retries": 0,
+      "total_ms": 4.85
+    },
+    "retry_naive": {
+      "status": "rate_limited",
+      "retries": 2,
+      "total_ms": 761.68
+    },
+    "retry_deadline_aware": {
+      "status": "rate_limited",
+      "retries": 0,
+      "total_ms": 1.6
+    }
+  },
+  "slow_trace": {
+    "request_id": "7e558f9d-4f34-4f7a-a749-bce4f5d6bed9",
+    "scenario": "sustained_overload",
+    "queue_ms": 958.15,
+    "working_before_first_model_content_ms": 3320.47,
+    "working_after_first_model_content_ms": 239.11,
+    "retries": 0,
+    "first_model_content_ms": 4278.62,
+    "buffered_ready_ms": 4517.7,
+    "total_ms": 4517.73
+  }
+}

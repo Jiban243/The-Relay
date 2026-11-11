@@ -1,0 +1,47 @@
+{
+  "run_id": "rpm_control_30_1950bae657",
+  "scenario": "rpm_control_30",
+  "source": "stand-in",
+  "requests": 24,
+  "duration_s": 11.935,
+  "offered_rate_per_min": 139.11,
+  "config": {
+    "count": 24,
+    "interval_s": 0.45,
+    "rpd": 1000,
+    "in_flight": 8,
+    "queue": 12,
+    "wait_s": 1.0,
+    "fail_prob": 0.0,
+    "timeout_prob": 0.0,
+    "tail_prob": 0.0,
+    "rpm": 30
+  },
+  "app_peak_queue": 0,
+  "app_peak_in_flight": 4,
+  "standin_metrics": {
+    "minute_requests": 24,
+    "day_requests": 24,
+    "minute_tokens_reserved": 40496,
+    "day_tokens_reserved": 40496,
+    "in_flight": 0,
+    "peak_in_flight": 4
+  },
+  "status_counts": {
+    "ok": 24,
+    "rate_limited": 0,
+    "timeout": 0,
+    "error": 0
+  },
+  "model_ttft_ms": {
+    "p50": 1128.02,
+    "p95": 1391.94,
+    "p99": 1399.46
+  },
+  "successful_total_ms": {
+    "p50": 1248.47,
+    "p95": 1572.89,
+    "p99": 1581.46
+  },
+  "warning": "Stand-in timings and token counts are simulated. TTFT measures first model content including queue wait. Buffered user-visible first content is recorded separately. Small-sample p95/p99 are descriptive only. Laboratory TPM=50000 intentionally differs from real observed TPM=8000."
+}

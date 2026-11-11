@@ -1,0 +1,47 @@
+{
+  "run_id": "sustained_overload_44eea44af7",
+  "scenario": "sustained_overload",
+  "source": "stand-in",
+  "requests": 48,
+  "duration_s": 8.325,
+  "offered_rate_per_min": 408.45,
+  "config": {
+    "count": 48,
+    "interval_s": 0.15,
+    "rpm": 30,
+    "rpd": 1000,
+    "in_flight": 2,
+    "queue": 8,
+    "wait_s": 1.0,
+    "fail_prob": 0.06,
+    "timeout_prob": 0.03,
+    "tail_prob": 0.12
+  },
+  "app_peak_queue": 7,
+  "app_peak_in_flight": 2,
+  "standin_metrics": {
+    "minute_requests": 11,
+    "day_requests": 11,
+    "minute_tokens_reserved": 19064,
+    "day_tokens_reserved": 19064,
+    "in_flight": 0,
+    "peak_in_flight": 2
+  },
+  "status_counts": {
+    "ok": 10,
+    "rate_limited": 0,
+    "timeout": 37,
+    "error": 1
+  },
+  "model_ttft_ms": {
+    "p50": 1670.8,
+    "p95": 4167.02,
+    "p99": 4256.3
+  },
+  "successful_total_ms": {
+    "p50": 1780.03,
+    "p95": 4408.08,
+    "p99": 4495.8
+  },
+  "warning": "Stand-in timings and token counts are simulated. TTFT measures first model content including queue wait. Buffered user-visible first content is recorded separately. Small-sample p95/p99 are descriptive only. Laboratory TPM=50000 intentionally differs from real observed TPM=8000."
+}

@@ -1,0 +1,44 @@
+{
+  "run_id": "burst_48688426ec",
+  "scenario": "burst",
+  "source": "stand-in",
+  "requests": 24,
+  "duration_s": 2.745,
+  "offered_rate_per_min": 1440.0,
+  "config": {
+    "count": 24,
+    "interval_s": 0.01,
+    "rpm": 30,
+    "rpd": 1000,
+    "in_flight": 3,
+    "queue": 12,
+    "wait_s": 1.5
+  },
+  "app_peak_queue": 12,
+  "app_peak_in_flight": 3,
+  "standin_metrics": {
+    "minute_requests": 6,
+    "day_requests": 6,
+    "minute_tokens_reserved": 10124,
+    "day_tokens_reserved": 10124,
+    "in_flight": 0,
+    "peak_in_flight": 3
+  },
+  "status_counts": {
+    "ok": 6,
+    "rate_limited": 0,
+    "timeout": 9,
+    "error": 9
+  },
+  "model_ttft_ms": {
+    "p50": 1664.64,
+    "p95": 2451.95,
+    "p99": 2513.62
+  },
+  "successful_total_ms": {
+    "p50": 1760.51,
+    "p95": 2602.71,
+    "p99": 2678.88
+  },
+  "warning": "Stand-in timings and token counts are simulated. TTFT measures first model content including queue wait. Buffered user-visible first content is recorded separately. Small-sample p95/p99 are descriptive only. Laboratory TPM=50000 intentionally differs from real observed TPM=8000."
+}
